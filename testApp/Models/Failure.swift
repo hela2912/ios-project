@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct Failure:Error{
+    let message :String
+
+}
